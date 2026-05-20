@@ -3,7 +3,7 @@
 
 ---
 
-## 📋 Aperçu
+##  Aperçu
 
 Ce lab met en place une **persistance locale complète** sous Android en Java :
 - SharedPreferences
@@ -16,7 +16,7 @@ L'objectif est de produire une application exécutable **hors Internet**, en app
 
 ---
 
-## 🎯 Objectifs d'apprentissage
+##  Objectifs d'apprentissage
 
 - Écrire et lire des préférences via **SharedPreferences** (`apply` vs `commit`)
 - Stocker un secret (token) chiffré via **EncryptedSharedPreferences + MasterKey**
@@ -27,7 +27,7 @@ L'objectif est de produire une application exécutable **hors Internet**, en app
 
 ---
 
-## 📸 Réalisations
+##  Réalisations
 
 ### Écran 1 – Chargement des préférences (SharedPreferences)
 
@@ -49,7 +49,7 @@ L'objectif est de produire une application exécutable **hors Internet**, en app
 
 ---
 
-## 📦 Dépendances (build.gradle)
+##  Dépendances (build.gradle)
 
 ```groovy
 dependencies {
@@ -60,7 +60,7 @@ dependencies {
 
 ---
 
-## 🧪 Étapes du Lab
+##  Étapes du Lab
 
 | # | Tâche | Description |
 |---|-------|-------------|
@@ -73,7 +73,7 @@ dependencies {
 
 ---
 
-## ✅ Checklist de sécurité
+## Checklist de sécurité
 
 - [x] Aucun secret stocké en clair
 - [x] Utilisation de `MODE_PRIVATE` uniquement
@@ -83,7 +83,5 @@ dependencies {
 
 ---
 
-## 👨‍💻 Auteur
 
-**Mohamed**  
 Cours : Programmation Mobile – Android avec Java
